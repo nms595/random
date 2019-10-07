@@ -9,4 +9,8 @@ sudo pip install -U pip
 sudo pip install -U virtualenv
 sudo yum -y install java-11-openjdk-devel
 sudo install maven -y
+sudo yum install nginx -y
+sudo systemctl start nginx
+sudo systemctl enable nginx
+
 
